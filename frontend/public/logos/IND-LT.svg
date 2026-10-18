@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://web.resource.org/cc/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" id="svg1340" sodipodi:version="0.32" inkscape:version="0.43" width="3000" height="3000" sodipodi:docbase="C:\Documents and Settings\Nicholas\Desktop" sodipodi:docname="L&amp;T-logo.svg" version="1.0">
+  <metadata id="metadata1345">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <dc:title>Logo of L&amp;T</dc:title>
+        <dc:date>2006-06-03</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Nicholas</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>Logo</rdf:li>
+            <rdf:li>Larsen and Toubro</rdf:li>
+            <rdf:li>Larsen &amp; Toubro</rdf:li>
+            <rdf:li>L&amp;T</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:description>Logo of  Larsen and Toubro</dc:description>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs id="defs1343"/>
+  <sodipodi:namedview inkscape:window-height="708" inkscape:window-width="1024" inkscape:pageshadow="2" inkscape:pageopacity="0.0" borderopacity="1.0" bordercolor="#666666" pagecolor="#ffffff" id="base" showgrid="true" inkscape:zoom="0.062656858" inkscape:cx="267.30192" inkscape:cy="3180.9681" inkscape:window-x="-4" inkscape:window-y="-4" inkscape:current-layer="layer2"/>
+  <g inkscape:groupmode="layer" id="layer2" inkscape:label="Yellow" style="display: inline;">
+    <rect style="opacity: 1; fill: rgb(255, 255, 0); fill-opacity: 1; stroke: none; stroke-width: 4; stroke-miterlimit: 4; stroke-dasharray: none; stroke-dashoffset: 0pt; stroke-opacity: 1;" id="rect1352" width="3047.054" height="3024.4832" x="0" y="-1.9124948"/>
+  </g>
+  <g inkscape:groupmode="layer" id="layer3" inkscape:label="Logo" style="display: inline;">
+    <path sodipodi:type="arc" style="opacity: 1; fill: none; fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-width: 235.61; stroke-miterlimit: 4; stroke-dasharray: none; stroke-dashoffset: 0pt; stroke-opacity: 1;" id="path2228" sodipodi:cx="1658.9517" sodipodi:cy="1499.0437" sodipodi:rx="1230.1071" sodipodi:ry="1320.3901" d="M 2889.0587 1499.0437 A 1230.1071 1320.3901 0 1 1  428.8446,1499.0437 A 1230.1071 1320.3901 0 1 1  2889.0587 1499.0437 z" transform="matrix(1.11623, 0, 0, 1.0399, -351.766, -58.8619)"/>
+    <path style="fill: none; fill-opacity: 0.75; fill-rule: evenodd; stroke: rgb(0, 0, 0); stroke-width: 1px; stroke-linecap: butt; stroke-linejoin: miter; stroke-opacity: 1;" d="M 1061.3363,326.70921 C 1058.6764,326.70921 1056.0164,326.70921 1061.3363,326.70921 z " id="path3118"/>
+    <path style="fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: evenodd; stroke: rgb(0, 0, 0); stroke-width: 19.2; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-dasharray: none; stroke-opacity: 1;" d="M 1029.4164,286.80935 L 203.4893,1707.2444 L 1260.8356,1711.2344 L 1496.2449,1292.2859 L 750.11741,1292.2859 L 1404.4752,199.02965 L 1029.4164,286.80935 z " id="path3120" sodipodi:nodetypes="ccccccc"/>
+    <path style="fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: evenodd; stroke: rgb(0, 0, 0); stroke-width: 48.9; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-dasharray: none; stroke-opacity: 1;" d="M 1252.8557,2744.6409 L 1891.2535,1699.2644 L 1484.2748,1695.2744 L 1707.7142,1306.2508 L 2753.0905,1308.2458 L 2545.6112,1691.2845 L 2134.6427,1687.2945 L 1508.2148,2760.6008 L 1252.8557,2744.6409 z " id="path3122" sodipodi:nodetypes="ccccccccc"/>
+  </g>
+</svg>

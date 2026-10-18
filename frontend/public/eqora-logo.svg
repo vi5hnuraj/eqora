@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 160" fill="none">
+  <defs>
+    <linearGradient id="eq" x1="20" y1="10" x2="90" y2="110" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFB347"/>
+      <stop offset=".48" stop-color="#FF6A00"/>
+      <stop offset="1" stop-color="#D93A00"/>
+    </linearGradient>
+  </defs>
+  <!-- mark -->
+  <g transform="translate(16 22) scale(1.0)">
+    <path fill="url(#eq)" d="M88 12 L42 12 L8 36 C6 40 5 44 6 48 C8 62 14 78 34 84 L88 84 L72 64 L36 64 C26 63 24 55 24 48 C24 41 26 33 36 32 L72 32 Z"/>
+    <g fill="url(#eq)">
+      <rect x="38" y="52" width="7" height="12" rx="1.6"/>
+      <rect x="48.5" y="44" width="7" height="20" rx="1.6"/>
+      <rect x="59" y="36" width="7" height="28" rx="1.6"/>
+    </g>
+    <path stroke="#FFD9A8" stroke-width="2.6" stroke-linecap="round" d="M33 24 L64 60" opacity=".95"/>
+  </g>
+  <!-- wordmark -->
+  <text x="130" y="88" fill="#F4F1EA" font-family="Inter, Arial, Helvetica, sans-serif" font-size="72" font-weight="700" letter-spacing="14">EQORA</text>
+  <!-- tagline -->
+  <text x="132" y="126" fill="#C8C2D8" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="600" letter-spacing="7">TRADE</text>
+  <text x="228" y="126" fill="#FF6A00" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700">/</text>
+  <text x="248" y="126" fill="#C8C2D8" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="600" letter-spacing="7">LEND</text>
+  <text x="332" y="126" fill="#FF6A00" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700">/</text>
+  <text x="352" y="126" fill="#C8C2D8" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="600" letter-spacing="7">VERIFY</text>
+</svg>
