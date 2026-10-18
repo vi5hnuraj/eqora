@@ -1,0 +1,21 @@
+{
+  "name": "eqora",
+  "version": "0.1.0",
+  "private": true,
+  "description": "EQORA — Blockchain-based Indian-stock practice trading and collateral-lending application with Arkiv verifiable trading activity",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "compile": "cd contracts && npm run compile",
+    "test": "cd contracts && npm test",
+    "build": "cd frontend && npm run build",
+    "dev": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "reporter": "cd backend && npm run reporter",
+    "arkiv:smoke": "cd backend && npm run arkiv:smoke",
+    "check-env": "./scripts/check-env",
+    "verify": "./scripts/verify-project"
+  }
+}

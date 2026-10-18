@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+echo "============================================="
+echo "   EQORA Arkiv Smoke Test (Tiramisu Node)    "
+echo "============================================="
+
+(cd backend && npm run arkiv:smoke)

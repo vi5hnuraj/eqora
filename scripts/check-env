@@ -1,0 +1,59 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+echo "============================================="
+echo "   EQORA Environment & Toolchain Check       "
+echo "============================================="
+
+# 1. Node version check
+NODE_VERSION=$(node -v 2>/dev/null || echo "none")
+echo "[1/4] Checking Node.js version..."
+if [[ "$NODE_VERSION" == "none" ]]; then
+  echo "  [FAIL] Node.js is not installed."
+  exit 1
+fi
+echo "  [OK] Node.js version: $NODE_VERSION"
+
+# 2. Check dependencies in subpackages
+echo "[2/4] Checking dependency directories..."
+for dir in contracts backend frontend; do
+  if [[ -d "$dir/node_modules" ]]; then
+    echo "  [OK] $dir/node_modules present"
+  else
+    echo "  [WARN] $dir/node_modules missing. Run 'cd $dir && npm install'"
+  fi
+done
+
+# 3. Check environment configuration
+echo "[3/4] Checking configuration files..."
+if [[ -f "backend/.env" ]]; then
+  echo "  [OK] backend/.env found"
+else
+  echo "  [WARN] backend/.env not found. Copy backend/.env.example to backend/.env"
+fi
+
+if [[ -f "contracts/deployments/polygonAmoy.json" ]]; then
+  echo "  [OK] contracts/deployments/polygonAmoy.json found"
+else
+  echo "  [WARN] Deployments file missing!"
+fi
+
+# 4. Check RPC connectivity
+echo "[4/4] Probing network endpoints..."
+AMOY_STATUS=$(curl -s -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_chainId","params":[],"id":1}' https://polygon-amoy-bor-rpc.publicnode.com | grep -o '0x13882' || true)
+if [[ "$AMOY_STATUS" == "0x13882" ]]; then
+  echo "  [OK] Polygon Amoy RPC reachable (Chain ID: 80002)"
+else
+  echo "  [WARN] Could not reach Polygon Amoy public RPC"
+fi
+
+ARKIV_STATUS=$(curl -s -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_chainId","params":[],"id":1}' https://rpc.tiramisu.db-chain.testnet.arkiv.network | grep -o '0x7614d1' || true)
+if [[ "$ARKIV_STATUS" == "0x7614d1" ]]; then
+  echo "  [OK] Arkiv Tiramisu RPC reachable (Chain ID: 7738577)"
+else
+  echo "  [WARN] Could not reach Arkiv Tiramisu RPC"
+fi
+
+echo "============================================="
+echo "   Environment check complete.               "
+echo "============================================="
