@@ -1,0 +1,22 @@
+{
+  "name": "@eqora/contracts",
+  "version": "0.1.0",
+  "private": true,
+  "description": "EQORA smart contracts — tokenized NSE stock practice market on Polygon Amoy",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "2.0.0",
+    "@nomicfoundation/hardhat-network-helpers": "1.0.6",
+    "@openzeppelin/contracts": "4.8.0",
+    "hardhat": "2.29.1",
+    "ethers": "5.8.0",
+    "chai": "4.3.7"
+  }
+}
